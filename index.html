@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ThePushpaEdits | Photo & Video Editing</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header>
+
+  <div class="brand">
+
+    <svg class="logo-svg" viewBox="0 0 100 100">
+      <circle cx="50" cy="50" r="45"></circle>
+      <text x="50" y="60" text-anchor="middle">TP</text>
+    </svg>
+
+    <div class="brand-name">
+      ThePushpa<span>Edits</span>
+    </div>
+
+  </div>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#order">Order</a>
+    <a href="#payment">Payment</a>
+  </nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+  <div class="glow glow1"></div>
+  <div class="glow glow2"></div>
+
+  <div class="hero-content">
+
+    <div class="camera-icon">🎬</div>
+
+    <p class="welcome">
+      WE EDIT YOUR MEMORIES
+    </p>
+
+    <h1>
+      THE <span>PUSHPA</span>
+    </h1>
+
+    <h2>EDITS</h2>
+
+    <p class="subtitle">
+      Professional Photo & Video Editing
+    </p>
+
+    <p class="description">
+      Reels • Shorts • Photos • Long Videos
+    </p>
+
+    <a href="#services" class="main-btn">
+      Explore Services
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section id="services" class="section">
+
+  <p class="red-title">OUR SERVICES</p>
+
+  <h2>What We Edit</h2>
+
+  <div class="cards">
+
+    <div class="card">
+
+      <div class="icon">🎬</div>
+
+      <h3>Video Editing</h3>
+
+      <p>
+        Reels • Shorts • Long Videos
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <div class="icon">📸</div>
+
+      <h3>Photo Editing</h3>
+
+      <p>
+        Enhance • Retouch • Design
+      </p>
+
+    </div>
+
+
+    <div class="card">
+
+      <div class="icon">🎨</div>
+
+      <h3>Color Grading</h3>
+
+      <p>
+        Cinematic • Smooth • HDR
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= PORTFOLIO ================= -->
+
+<section id="portfolio" class="section portfolio">
+
+  <p class="red-title">
+    OUR WORK
+  </p>
+
+  <h2>
+    Editing Portfolio
+  </h2>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-item">
+
+      <div class="portfolio-icon">🎬</div>
+
+      <h3>
+        Reel Editing
+      </h3>
+
+      <p>
+        Trending Reels & Shorts
+      </p>
+
+    </div>
+
+
+    <div class="portfolio-item">
+
+      <div class="portfolio-icon">📸</div>
+
+      <h3>
+        Photo Editing
+      </h3>
+
+      <p>
+        Creative & Professional
+      </p>
+
+    </div>
+
+
+    <div class="portfolio-item">
+
+      <div class="portfolio-icon">🎨</div>
+
+      <h3>
+        Color Grading
+      </h3>
+
+      <p>
+        Cinematic Color Look
+      </p>
+
+    </div>
+
+
+    <div class="portfolio-item">
+
+      <div class="portfolio-icon">🎥</div>
+
+      <h3>
+        Long Video
+      </h3>
+
+      <p>
+        YouTube Video Editing
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= PRICING ================= -->
+
+<section id="pricing" class="section pricing">
+
+  <p class="red-title">
+    OUR PRICES
+  </p>
+
+  <h2>
+    Simple Pricing
+  </h2>
+
+  <div class="cards">
+
+
+    <div class="price-card">
+
+      <h3>
+        Reels / Shorts
+      </h3>
+
+      <div class="price">
+        ₹900
+      </div>
+
+      <p>
+        3 Videos
+      </p>
+
+      <button onclick="selectService('Reels / Shorts')">
+        Order Now
+      </button>
+
+    </div>
+
+
+    <div class="price-card">
+
+      <h3>
+        Photo Editing
+      </h3>
+
+      <div class="price">
+        ₹500
+      </div>
+
+      <p>
+        3 Photos
+      </p>
+
+      <button onclick="selectService('Photo Editing')">
+        Order Now
+      </button>
+
+    </div>
+
+
+    <div class="price-card">
+
+      <h3>
+        Long Video
+      </h3>
+
+      <div class="price">
+        ₹500+
+      </div>
+
+      <p>
+        5–10 Minutes
+      </p>
+
+      <button onclick="selectService('Long Video')">
+        Order Now
+      </button>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= ORDER FORM ================= -->
+
+<section id="order" class="order-section">
+
+  <p class="red-title">
+    PLACE YOUR ORDER
+  </p>
+
+  <h2>
+    Order Form
+  </h2>
+
+  <div class="order-box">
+
+    <form id="orderForm">
+
+      <label>
+        Your Name
+      </label>
+
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+        required
+      >
+
+
+      <label>
+        WhatsApp Number
+      </label>
+
+      <input
+        type="tel"
+        id="phone"
+        placeholder="Enter WhatsApp number"
+        required
+      >
+
+
+      <label>
+        Select Service
+      </label>
+
+      <select id="service" required>
+
+        <option value="">
+          Select a service
+        </option>
+
+        <option value="Reels / Shorts">
+          Reels / Shorts
+        </option>
+
+        <option value="Photo Editing">
+          Photo Editing
+        </option>
+
+        <option value="Long Video">
+          Long Video
+        </option>
+
+        <option value="Color Grading">
+          Color Grading
+        </option>
+
+      </select>
+
+
+      <label>
+        Project Details
+      </label>
+
+      <textarea
+        id="details"
+        placeholder="Apne project ke baare mein bataiye..."
+        required
+      ></textarea>
+
+
+      <label>
+        Transaction ID
+      </label>
+
+      <input
+        type="text"
+        id="transaction"
+        placeholder="Payment ke baad Transaction ID"
+      >
+
+
+      <div class="advance-note">
+
+        💳 <strong>Payment Policy</strong>
+
+        <br><br>
+
+        Order confirm karne ke liye
+        <strong>50% advance payment</strong>
+        required hai.
+
+        <br>
+
+        Remaining 50% payment
+        work complete hone par.
+
+      </div>
+
+
+      <button
+        type="submit"
+        class="submit-btn">
+
+        🚀 Submit Order
+
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- ================= PAYMENT ================= -->
+
+<section id="payment" class="payment-section">
+
+  <p class="red-title">
+    PAYMENT
+  </p>
+
+  <h2>
+    50% Advance Payment
+  </h2>
+
+  <p class="payment-info">
+
+    Order confirm karne ke liye total amount ka
+    <strong>50% advance payment</strong>
+    karna hoga.
+
+    <br>
+
+    Remaining 50% work complete hone par.
+
+  </p>
+
+
+  <div class="payment-box">
+
+    <h3>
+      Scan & Pay
+    </h3>
+
+
+    <!-- QR CODE -->
+    <div id="qrcode"></div>
+
+
+    <p class="upi-id">
+
+      UPI ID:
+
+      <strong>
+        6375470906@fam
+      </strong>
+
+    </p>
+
+
+    <button
+      onclick="copyUPI()"
+      class="copy-btn">
+
+      📋 Copy UPI ID
+
+    </button>
+
+
+    <p id="copyMessage"></p>
+
+
+    <div class="payment-note">
+
+      ⚠️ Payment karne ke baad
+      Transaction ID ya payment screenshot
+      WhatsApp par bhej dein.
+
+    </div>
+
+
+    <a
+      href="https://wa.me/916375470906"
+      target="_blank"
+      class="whatsapp">
+
+      💬 Send Payment Screenshot
+
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section class="why">
+
+  <p class="red-title">
+    WHY US
+  </p>
+
+  <h2>
+    Why Choose Us?
+  </h2>
+
+
+  <div class="features">
+
+    <div>
+      <b>⚡</b>
+      <span>Fast Delivery</span>
+    </div>
+
+    <div>
+      <b>🏆</b>
+      <span>Premium Quality</span>
+    </div>
+
+    <div>
+      <b>🎧</b>
+      <span>24/7 Support</span>
+    </div>
+
+    <div>
+      <b>🛡️</b>
+      <span>100% Satisfaction</span>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
+
+  <h2>
+    Let's Edit Your Story
+  </h2>
+
+  <p>
+    Apna project bhejiye aur professional
+    editing karwaiye.
+  </p>
+
+  <a
+    class="whatsapp"
+    href="https://wa.me/916375470906"
+    target="_blank">
+
+    💬 Chat on WhatsApp
+
+  </a>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+  <div class="footer-logo">
+
+    ThePushpa<span>Edits</span>
+
+  </div>
+
+  <p>
+    © 2026 ThePushpaEdits. All Rights Reserved.
+  </p>
+
+</footer>
+
+
+<!-- ================= QR LIBRARY ================= -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+
+
+<script>
+
+/* ================= QR CODE ================= */
+
+new QRCode(
+  document.getElementById("qrcode"),
+  {
+    text:
+      "upi://pay?pa=6375470906@fam&pn=ThePushpaEdits&cu=INR",
+
+    width: 200,
+    height: 200
+  }
+);
+
+
+/* ================= COPY UPI ================= */
+
+function copyUPI() {
+
+  navigator.clipboard.writeText(
+    "6375470906@fam"
+  );
+
+  document.getElementById(
+    "copyMessage"
+  ).innerText =
+    "✅ UPI ID copied!";
+
+}
+
+
+/* ================= SELECT SERVICE ================= */
+
+function selectService(service) {
+
+  document.getElementById(
+    "service"
+  ).value = service;
+
+  document.getElementById(
+    "order"
+  ).scrollIntoView({
+    behavior: "smooth"
+  });
+
+}
+
+
+/* ================= ORDER FORM ================= */
+
+document.getElementById(
+  "orderForm"
+).addEventListener(
+  "submit",
+  function(event) {
+
+    event.preventDefault();
+
+
+    let name =
+      document.getElementById(
+        "name"
+      ).value;
+
+    let phone =
+      document.getElementById(
+        "phone"
+      ).value;
+
+    let service =
+      document.getElementById(
+        "service"
+      ).value;
